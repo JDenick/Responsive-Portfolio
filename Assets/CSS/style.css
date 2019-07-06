@@ -341,7 +341,7 @@ body {
     color: white;
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width: 960px) {
     #navigationbar {
         width: 100%;
     }
