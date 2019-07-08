@@ -341,7 +341,314 @@ body {
     color: white;
 }
 
-@media all and (max-width: 960px) {
+@media screen and (max-width: 980px) {
+    #navigationbar {
+        width: 100%;
+        position: static;
+    }
+    #introbar {
+        width: 100%;
+    }
+    #aboutme {
+        width: 100%;
+        text-align: left;
+        margin-left: 20px;
+    }
+    #wrapper {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        float: left;
+    }
+   #contentwrapper {
+       width: 100%;
+       height: 900px;
+       position: relative;
+       float: left;
+   }
+   .imagebox {
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   #textwrapper {
+       width: 100%;
+       height: 800px;
+   }
+   .textboxa {
+       clear: both;
+       overflow: auto;
+       width: 100%;
+       padding: 20px;
+       /* height: 280px; */
+       margin-bottom: 30px;
+   }
+   .textboxb {
+       width: 100%;
+       clear: both;
+       height: 240px;
+   }
+   #footer {
+       clear: both;
+       overflow: auto;
+   }
+   #name {
+       display: flex;
+       align-items: left;
+       margin-left: 20px;
+       justify-content: center;
+       width: 100%;
+   }
+   #about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 33%;
+    position: static;
+   }
+   
+   #portfolio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: right;
+        width: 33%;
+        position: static;
+   }
+   
+   #contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: right;
+        width: 33%;
+        position: static;
+   }
+   #portfolioboxa {
+       margin-top: 60px;
+       height: 150px;
+       width: 150px;
+   }    
+   #portfolioboxb {
+       margin-left: 15px;
+       margin-top: 60px;
+       height: 150px;
+       width: 150px;
+   }
+   #portfolioboxc{
+       margin-left: 0px;
+       margin-top: 70px;
+       height: 150px;
+       width: 150px;
+   }
+   #portfolioboxd {
+        margin-left: 15px;
+        margin-top: 70px;
+        height: 150px;
+        width: 150px;
+   }
+   #portfolioboxe {
+        margin-left: 0px;
+        margin-top: 70px;
+        height: 150px;
+        width: 150px;
+   }
+   #portfolioboxf {
+        margin-left: 15px;
+        margin-top: 70px;
+        height: 150px;
+        width: 150px;
+   }
+   .contactname {
+       margin-top: 30px;
+   }
+   .nametextbox {
+       width: 100%;
+       margin-top: 15px;
+   }
+   .contactemail {
+       margin-top: 40px;
+   }
+   .emailtextbox {
+       width: 100%;
+       margin-top: 15px;
+   }
+   .contactmessage {
+        margin-top: 40px;
+   }
+   .messagetextbox {
+       width: 100%;
+       margin-top: 15px;
+   }
+   .submitbuttonbox {
+       margin-top: 25px;
+   }
+   #captionboxa {
+       width: 100%;
+   }
+   #captionboxb {
+       width: 100%;
+   }
+}
+@media screen and (max-width: 768px) {
+    #navigationbar {
+        width: 100%;
+        position: static;
+    }
+    #introbar {
+        width: 100%;
+    }
+    #aboutme {
+        width: 100%;
+        text-align: left;
+        margin-left: 20px;
+    }
+    #wrapper {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        float: left;
+    }
+   #contentwrapper {
+       width: 100%;
+       height: 900px;
+       position: relative;
+       float: left;
+   }
+   .imagebox {
+      margin-bottom: 20px;
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      position: relative;
+      width: 200px;
+   }
+   #textwrapper {
+       width: 100%;
+       height: 800px;
+   }
+   .textboxa {
+       position: absolute;
+       /* clear: both; */
+       overflow: auto;
+       width: 400px;
+       height: 300px;
+       /* padding: 20px; */
+       /* height: 280px; */
+       /* margin-bottom: 30px; */
+       float: right;
+       margin-top: 0px;
+       padding-bottom: 100px;
+       margin-left: 200px;
+   }
+   .textboxb {
+       margin-top: 30px;
+       width: 100%;
+       clear: both;
+       height: 240px;
+   }
+   #footer {
+       clear: both;
+       overflow: auto;
+   }
+   #name {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+   }
+   #about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: left;
+        width: 33%;
+        position: static;
+   }
+#portfolio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: right;
+        width: 33%;
+        position: static;
+    }
+   
+   #contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: right;
+        width: 33%;
+        position: static;
+   }
+   #portfolioboxa {
+       margin-top: 60px;
+       height: 150px;
+       width: 150px;
+   }    
+   #portfolioboxb {
+       margin-left: 15px;
+       margin-top: 60px;
+       height: 150px;
+       width: 150px;
+   }
+   #portfolioboxc{
+       margin-left: 0px;
+       margin-top: 70px;
+       height: 150px;
+       width: 150px;
+   }
+   #portfolioboxd {
+        margin-left: 15px;
+        margin-top: 70px;
+        height: 150px;
+        width: 150px;
+   }
+   #portfolioboxe {
+        margin-left: 0px;
+        margin-top: 70px;
+        height: 150px;
+        width: 150px;
+   }
+   #portfolioboxf {
+        margin-left: 15px;
+        margin-top: 70px;
+        height: 150px;
+        width: 150px;
+   }
+   .contactname {
+       margin-top: 30px;
+   }
+   .nametextbox {
+       width: 100%;
+       margin-top: 15px;
+   }
+   .contactemail {
+       margin-top: 40px;
+   }
+   .emailtextbox {
+       width: 100%;
+       margin-top: 15px;
+   }
+   .contactmessage {
+        margin-top: 40px;
+   }
+   .messagetextbox {
+       width: 100%;
+       margin-top: 15px;
+   }
+   .submitbuttonbox {
+       margin-top: 25px;
+   }
+   #captionboxa {
+       width: 100%;
+   }
+   #captionboxb {
+       width: 100%;
+   }
+}
+@media screen and (max-width: 640px) {
     #navigationbar {
         width: 100%;
     }
@@ -350,7 +657,8 @@ body {
     }
     #aboutme {
         width: 100%;
-        text-align: center;
+        text-align: left;
+        margin-left: 20px;
     }
     #wrapper {
         width: 100%;
@@ -396,12 +704,31 @@ body {
        justify-content: center;
        width: 100%;
    }
-   #about, #portfolio, #contact {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        float: left;
-        width: 100%;
+   #about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 33%;
+    position: static;
+   }
+   
+   #portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 33%;
+    position: static;
+   }
+   
+   #contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 33%;
+    position: right;
    }
    #portfolioboxa {
        margin-top: 60px;
