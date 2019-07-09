@@ -75,7 +75,7 @@ body {
 
 #wrapper {
     width: 100%;
-    height: 655px;
+    height: 650px;
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
@@ -172,6 +172,7 @@ textboxb {
     background-color: #cccccc;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
     text-align: center;
     border-style: solid;
     border-color: #4aaaa5;
@@ -364,13 +365,13 @@ textboxb {
     }
     #wrapper {
         width: 100%;
-        height: 1000px;
+        height: 650px;
         position: relative;
         float: left;
     }
    #contentwrapper {
        width: 100%;
-       height: 900px;
+       height: 600px;
        position: relative;
        float: left;
    }
@@ -383,7 +384,7 @@ textboxb {
    }
    #textwrapper {
        width: 100%;
-       height: 800px;
+       height: 350px;
    }
    .textboxa {
        clear: both;
@@ -397,7 +398,7 @@ textboxb {
    .textboxb {
        width: 100%;
        clear: both;
-       height: 240px;
+       height: 200px;
    }
    #footer {
        clear: both;
@@ -481,13 +482,13 @@ textboxb {
     }
     #wrapper {
         width: 100%;
-        height: 1000px;
+        height: 650px;
         position: relative;
         float: left;
     }
    #contentwrapper {
        width: 100%;
-       height: 900px;
+       height: 600px;
        position: relative;
        float: left;
    }
@@ -501,7 +502,7 @@ textboxb {
    }
    #textwrapper {
        width: 100%;
-       height: 800px;
+       height: 350px;
    }
    .textboxa {
        clear: both;
