@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+p {
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
 body {
     background: white;
 }
@@ -103,7 +109,7 @@ body {
 }
 
 #aboutme {
-    width: 918px;
+    width: 100%;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -111,7 +117,7 @@ body {
     text-align: left;
     font-size: 24px;
     padding: 5px;
-    padding-left: 0px;
+    padding-left: 20px;
     border-style: solid;
     border-color: #cccccc;
     border-width: 0px 0px 4px 0px;
@@ -129,6 +135,7 @@ body {
     position: relative;
     height: 200px;
     width: 300px;
+    margin-right: 10px;
     float: left;
     top: 5px;
     box-sizing: border-box;
@@ -137,7 +144,7 @@ body {
     background-size: cover;
 }
 
-.textboxa {
+textboxa {
     float: right;
     width: 600px;
     height: 250px;
@@ -147,7 +154,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.textboxb {
+textboxb {
     overflow: both;
     position: relative;
     background: white;
@@ -354,7 +361,6 @@ body {
     #aboutme {
         width: 100%;
         text-align: left;
-        margin-left: 20px;
     }
     #wrapper {
         width: 100%;
@@ -369,9 +375,11 @@ body {
        float: left;
    }
    .imagebox {
-      margin-bottom: 20px;
-      margin-left: auto;
-      margin-right: auto;
+        /* position: absolute; */
+        /* margin-top: 100px; */
+      margin-bottom: 10px;
+      margin-right: 10px;
+      /* padding-right: 10px; */
    }
    #textwrapper {
        width: 100%;
@@ -380,10 +388,11 @@ body {
    .textboxa {
        clear: both;
        overflow: auto;
-       width: 100%;
-       padding: 20px;
-       /* height: 280px; */
+       width: 60%;
        margin-bottom: 30px;
+       margin-left: 10px;
+       padding-left: 10px;
+       text-align: justify;
    }
    .textboxb {
        width: 100%;
@@ -397,7 +406,6 @@ body {
    #name {
        display: flex;
        align-items: left;
-       margin-left: 20px;
        justify-content: center;
        width: 100%;
    }
@@ -470,7 +478,6 @@ body {
     #aboutme {
         width: 100%;
         text-align: left;
-        margin-left: 20px;
     }
     #wrapper {
         width: 100%;
@@ -485,9 +492,10 @@ body {
        float: left;
    }
    .imagebox {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       /* margin-left: auto; */
       /* margin-right: auto; */
+      margin-right: 10px;
       position: relative;
       width: 200px;
    }
@@ -496,8 +504,7 @@ body {
        height: 800px;
    }
    .textboxa {
-       position: absolute;
-       /* clear: both; */
+       clear: both;
        overflow: auto;
        width: 400px;
        height: 300px;
@@ -533,7 +540,7 @@ body {
         width: 33%;
         position: static;
    }
-#portfolio {
+    #portfolio {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -592,7 +599,6 @@ body {
     #aboutme {
         width: 100%;
         text-align: left;
-        margin-left: 20px;
     }
     #wrapper {
         width: 100%;
@@ -607,9 +613,13 @@ body {
        float: left;
    }
    .imagebox {
-      margin-bottom: 20px;
-      margin-left: auto;
-      margin-right: auto;
+       width: 300px;
+       height: 300px;
+       margin: auto;
+      margin-bottom: 10px;
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      padding: auto;
    }
    #textwrapper {
        width: 100%;
@@ -618,6 +628,7 @@ body {
    .textboxa {
        clear: both;
        overflow: auto;
+       margin-top: 300px;
        width: 100%;
        padding: 20px;
        height: 280px;
